@@ -1,0 +1,27 @@
+.jumbotron {
+  background-image: url("https://preview.ibb.co/dGQT0G/2d34d2df139408b6107c1b9e4040dbf9_heavy_rock_heavy_metal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 0;
+  color: black; }
+
+ul {
+  margin: 0 auto;
+  max-width: 1200px; }
+
+nav {
+  /*tutaj zmiana*/
+  background-color: blue;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  nav li {
+    margin: 10px; }
+
+.test {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  color: blue; }
