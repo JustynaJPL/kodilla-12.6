@@ -21,8 +21,15 @@ $(function() {
         countriesList.empty();
 
         resp.forEach(function(item) {
-        	$('<li>').text(item.name).appendTo(countriesList);
-    	});
+        	$(countriesList).append(
+        		"<li>" +
+        		"<h1>"+item.name+"</h1>"+
+        		"<h2>"+item.capital+"</h2>"+
+        		"<p class='region'> <span>Region:</span> "+item.region+"</p>"+ 
+        		"<p class='population'> <span>Population:</span> "+item.population+"</p>"+
+        		"<p class='area'><span>Area:</span>"+item.area+"</p>"+
+        		"</li>");
+        });
     }
     function clearImput(){
     	countryNameinp.val("");
